@@ -4,12 +4,6 @@ const path = require('path');
 module.exports = {
   mode: 'development',
 
-  devServer: {
-    host: 'localhost',
-    port: 8080,
-    historyApiFallback: true,
-  },
-
   module: {
     rules: [
       {
